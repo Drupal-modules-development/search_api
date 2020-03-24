@@ -41,10 +41,6 @@ drupal_major_version:           7
 drupal_site_name:               "Drupal development"
 drupal_install_profile:         minimal
 
-drush_launcher_install:         no
-drush_install_from_source:      yes
-drush_source_install_version:   "8.1.16"
-
 drupalvm_cron_jobs:
   - name:                       "Drupal Cron"
     minute:                     "*/30"
