@@ -1,6 +1,6 @@
 vagrant_box:                    geerlingguy/drupal-vm
 
-vagrant_hostname:               drupal7.dev
+vagrant_hostname:               drupal7.local
 vagrant_machine_name:           drupal7vm
 vagrant_ip:                     0.0.0.0
 
@@ -27,7 +27,7 @@ ansible_python_interpreter:     /usr/bin/python3
 
 force_ansible_local:            true
 
-drupal_build_makefile:          false
+drupal_build_makefile:          true
 
 drupal_build_composer:          false
 drupal_build_composer_project:  false
