@@ -7,6 +7,11 @@ api: 2
 # Drupal core (major version, e.g. 6.x, 7.x, 8.x).
 core: "7.x"
 
+defaults:
+  projects:
+    subdir:         "contrib"
+    version:        ~
+
 projects:
 
   # Core.
@@ -21,4 +26,5 @@ projects:
     #   working-copy: true
 
   # Other modules.
-  devel: "1.x-dev"
+  devel:
+    subdir:         "development"
