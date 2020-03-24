@@ -5,6 +5,7 @@ vendor/.git
 # Drupal VM
 .vagrant/
 tests/screenshots
+app/
 
 # IDEs
 *.iml
