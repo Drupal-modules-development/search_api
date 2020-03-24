@@ -23,7 +23,7 @@ vagrant_plugins:
   - name:                       vagrant-hostsupdater
   - name:                       vagrant-auto_network
 
-drupal_build_makefile:          true
+drupal_build_makefile:          false
 
 drupal_build_composer:          false
 drupal_build_composer_project:  false
