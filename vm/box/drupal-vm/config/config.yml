@@ -28,6 +28,7 @@ ansible_python_interpreter:     /usr/bin/python3
 force_ansible_local:            true
 
 drupal_build_makefile:          true
+drush_makefile_path:            ../../../../config/drupal.make.yml
 
 drupal_build_composer:          false
 drupal_build_composer_project:  false
