@@ -23,12 +23,16 @@ vagrant_plugins:
   - name:                       vagrant-hostsupdater
   - name:                       vagrant-auto_network
 
+ansible_python_interpreter:     /usr/bin/python3
+
+force_ansible_local:            true
+
 drupal_build_makefile:          false
 
 drupal_build_composer:          false
 drupal_build_composer_project:  false
 
-drupal_install_site:            true
+drupal_install_site:            false
 
 # Required Drupal settings.
 drupal_core_path:               "/var/www/drupalvm/app"
